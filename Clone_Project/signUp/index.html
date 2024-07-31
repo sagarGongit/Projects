@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="signUp">
+        <h3>Create An Account</h3>
+        <hr>
+        <form onsubmit="handleSignUp(event)">
+            <div class="insider">
+                <img src="https://www.sephora.com/img/ufe/bi/logo-beauty-insider.svg">
+                <p>Join the Beauty Insider loyalty program. Earn points, get FREE <br> standard shipping, redeem rewards, and more.</p>
+            </div>
+            <div class="name">
+                <input type="text" placeholder="First Name" id="fname">
+                <input type="text" placeholder="Last Name" id="lname">
+            </div>
+            <input type="email" placeholder="Email Address" id="email"><br>
+            <input type="password" placeholder="Password (6-8 Characters)" id="password"><br>
+            <input type="number" placeholder="Phone Number" id="number">
+            <div class="alerts">
+                <input type="checkbox" id="check">
+                <p>Sign me up for Sephora marketing text alerts.</p>
+            </div>
+            <div class="gifts">
+                <img src="https://www.sephora.com/img/ufe/icons/birthday.svg">
+                <p>Enter your birthday to receive a free gift every year.</p>
+            </div>
+            <div class="birth-data">
+               <input type="month" placeholder="Month" id="month"><input type="date" placeholder="Day" id="day">
+            </div>
+            <div><input type="text" id="zipcode" placeholder="ZIP/Postal Code (Optional)"></div>
+            <div>
+                <h5>
+                    Sephora Text Alerts Disclosure: By entering your phone number,
+                    checking <br> the Sign me up for Sephora marketing text alerts checkbox,
+                    clicking the <br> “Join Now” button and confirming sign-up,
+                    you consent and agree to receive <br> recurring autodialed marketing texts,
+                    including abandoned cart reminders, <br> and confirm that you have read and agree to the <a href="#">TEXT TERMS.</a>
+                    Message frequency varies. <br> Consent is not a condition of purchase. Message & data rates may apply.
+                    See our <a href="#">PRIVACY POLICY</a> and <a href="#">NOTICE OF FINANCIAL INCENTIVE.</a> Text STOP to cancel at any time. HELP for help. <br><br>
+                    By clicking “Join Now” you acknowledge that you are a U.S. or Canada resident and (1) have read Sephora’s Privacy Policy and Notice of Financial Incentive,
+                     (2), agree to <a href="#">TERMS OF USE, BEAUTY INSIDER TERMS</a>, and to automatically receive Beauty Insider offers and notifications via email.
+                </h5>
+            </div>
+            <div class="keep-signin">
+                <div><input type="checkbox"><p>Keep me signed in</p><img src="https://img.icons8.com/?size=128&id=t4ujSfHW9WSb&format=png"></div>
+            </div>
+            <p class="message"></p>
+            <input type="submit" value="Join Now" id="sign-btn">
+            <hr>
+            <div>
+                <h5>Sephora uses Google ReCaptcha and by registering, users are subject to Google’s <a href="#">privacy policy & terms.</a></h5>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

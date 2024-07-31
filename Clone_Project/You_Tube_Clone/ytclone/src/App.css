@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#App {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+#ham-icon img{
+    width: 20px;
+    height: 25px;
+}
+#logo img{
+    width: 100px;
+    height: 40px;
+}
+#search-voice button {
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+#search-box input {
+  width:550px ;
+  height:30px;
+  font-size: 20px;
+  outline: none;
+  border: none; 
+  flex-grow:1; 
+}
+#search-box img{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
+#search-box button {
+    width: 70px;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: 	#FF0000;
+    outline: none;
+    border: none;
+}
+#search-box button img{
+    width: 25px;
+    height: 25px;
+}
+#search-box {
+    width: 650px;
+    height: 40px;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius:25px;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+}
+#search-voice img{
+    width: 100%;
+    height: 100%;
+}
+#create-video img{
+    width:30px ;
+    height: 30px;
+}
+#notification img{
+    width: 30px;
+    height: 30px;
+}
+#icon-ctn {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-left: 20px;
+}
+#layer1 {
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+#user-utility {
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+#user-profile{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: gray;
+}
+.app{
+    width:100vw;
+    height: 100vh;
+    border: 2px solid red;
+}
+.video-grid {
+    display: grid ;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.video-card{
+    width: 340px;
+    height:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+    margin: auto;
+}
+.video-card img{
+    width:100%;
+    height: 180px;
+}
+#layer2{
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+#layer2 div{
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    background-color:whitesmoke;
+    padding: 6px;
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+

@@ -1,0 +1,110 @@
+
+/* -------------commmunity-modal-styling------------- */
+
+.community-header{
+    width:390px;
+    height:500px;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow-y: scroll;
+    margin:auto;
+    padding: 10px 0 10px 0;
+  }
+  ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    background:white;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:black;
+  }
+  ::-webkit-scrollbar {
+   width: 15px;
+  }
+  .sign-detail-community p{
+    margin: 0;
+    font-size: 14px;
+  }
+  .sign-detail-community h5{
+      margin: 0;
+      font-size: 15px;
+  }
+  .sign-detail-community{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  .sign-detail-community>div:nth-child(3) img{
+      width: 20px;
+      height: 20px;
+  }
+  .sign-detail-community>div:nth-child(3){
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: space-between;
+      padding: 10px;
+  }
+  .sign-detail-community img{
+    width: 50px;
+    height: 50px;
+  }
+  .buttons-community{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .buttons-community>div:nth-child(1) button{
+    width: 155px;
+    height: 30px;
+    border-radius:15px;
+    background-color: black;
+    color: white;
+  }
+  .buttons-community>div:nth-child(2) button{
+    width: 155px;
+    height: 30px;
+    border-radius:15px;
+    background-color:white;
+    color:black;
+  }
+  .slit>div{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    margin-bottom:5px;
+    padding: 10px;
+  }
+  .slit>div>div{
+    display: block;
+    margin:0;
+    padding: 0;
+    margin-right: 22px;
+  }
+  .slit>div img{
+    width: 50px;
+    height: 50px;
+  }
+  .slit p{
+      margin: 0;
+      font-size: 14px;
+  }
+  .slit h5{
+      margin: 0;
+      font-size: 14px;
+  }
+  .groups>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding: 10px;
+  }
+  .groups h5{
+    font-size: 17px;
+  }
+  .groups p{
+    font-size: 14px;
+  }
+  .sign{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    margin-bottom:5px;
+    padding: 10px 10px 10px 10px;
+  }

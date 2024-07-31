@@ -1,0 +1,84 @@
+
+/* ----------------store-and-services-styling------- */
+.store-and-services{
+    width:390px;
+    height:500px;
+    font-size: 13px;
+    box-shadow: rgba(216, 171, 171, 0.24) 0px 3px 8px;
+    overflow-y: scroll;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    background-color: white;
+    border-radius: 7px;
+    }
+    ::-webkit-scrollbar-track{
+      box-shadow: inset 0 0 5px grey;
+      background:white;
+    }
+    ::-webkit-scrollbar-thumb{
+      background:black;
+    }
+    ::-webkit-scrollbar {
+     width: 10px;
+    }
+  .services-locate>div{
+    display: flex;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    margin-bottom:5px;
+    padding: 20px;
+  }
+  .services-locate>div>div{
+    display: block;
+    margin-right: 22px;
+  }
+  .services-locate>div img{
+    width: 55px;
+    height: 55px;
+  }
+  .services-locate p{
+      margin: 0;
+      font-size: 14px;
+  }
+  .services-locate h5{
+      margin: 0;
+      font-size: 14px;
+  }
+  .faq{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    justify-content: left;
+  }
+  .faq a{
+    text-decoration: none;
+  }
+  .faq>div{
+    padding: 10px;
+  }
+  .location-nav{
+    display: flex;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding:15px 10px 15px 10px;
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+  }
+  .location-nav img{
+       width: 20px;
+       height: 20px;
+  }
+  .choose-btn{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    padding:20px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .choose-btn button{
+    width: 130px;
+    height: 30px;
+    border-radius:15px;
+    background-color: black;
+    color: white;
+  }

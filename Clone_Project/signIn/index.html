@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SignIn</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="signIn">
+        <h3>Sign In</h3>
+         <p>Sign in or create an account to enjoy <span>FREE standard shipping</span><br> on all orders.</p>
+         <p class="error-message"></p>
+         <form onsubmit="handleSignIn(event)">
+            <div>
+
+            <input type="email" id="email" placeholder="Email Address"><br>
+            <input type="password" id="password" placeholder="Password"><br>
+            <div class="keep-signin">
+                <div><input type="checkbox"><p>Keep me signed in</p><img src="https://img.icons8.com/?size=128&id=t4ujSfHW9WSb&format=png"></div>
+                <div><a href="#">Forgot Password?</a></div>
+            </div>
+             <h6>By clicking “Sign In”, you (1) agree to the current version of our <a href="#">TERMS OF USE</a>, and <br> (2) have read Sephora’s <a href="#">Privacy Policy</a></h6>
+             <input type="submit" value="Sign In" id="btn">
+            </div>
+              <div>
+                <h3>New to Sephora?</h3>
+                <button> <a href="../signUp/index.html">Create Account</a></button>
+                <button class="surfMode">Surf As Guest</button>
+              </div>
+         </form>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,132 @@
+
+/* ---------------------sign-in-modal-styling---------------- */
+
+.sign-in-modal{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:500px;
+    width:390px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+  }
+  ::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    background:white;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:black;
+  }
+  ::-webkit-scrollbar {
+   width: 10px;
+  }
+  .header{
+    width:380px;
+    height:130px;
+    position:fixed;
+    font-size: 15px;
+  }
+  .sign-detail{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+  .sign-detail img{
+    width: 50px;
+    height: 50px;
+  }
+  .buttons{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+  .buttons>div:nth-child(1) button{
+    width: 155px;
+    height: 30px;
+    border-radius:15px;
+    background-color: black;
+    color: white;
+  }
+  .buttons>div:nth-child(2) button{
+    width: 155px;
+    height: 30px;
+    border-radius:15px;
+    background-color:white;
+    color:black;
+  }
+  .beauty-preference{
+   margin-top: 150px;
+   width:380px;
+   overflow-y: scroll;
+   padding: 12px;
+   border-radius: 8px;
+   font-size: 18px;
+  }
+
+  .beauty-preference h5{
+    margin: 0;
+  }
+  .beauty-preference p{
+    font-size: 13px;
+    margin: 0;
+  }
+  .preferences{
+    padding: 10px;
+  }
+  .preferences>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .preferences>div>div:nth-child(1){
+    display: flex;
+  }
+  .gray-bar{
+    width: 120px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    align-items: center;
+  }
+  .beauty-insider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .beauty-insider img{
+    width: 60px;
+    height: 20px;
+  }
+  .reedem-beauty{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .beauty-challenge{
+    padding: 10px;
+  }
+  .beauty-challenge>div{
+    display: flex;
+    gap: 10px;
+  }
+  .beauty-challenge>div>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+  }
+  .slit>div{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+  .slit>div img{
+    width: 30px;
+    height: 30px;
+  }
