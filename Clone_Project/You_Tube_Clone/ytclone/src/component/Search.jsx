@@ -7,31 +7,30 @@ const Search = () => {
   const [videos, setVideos] = useState([]);
    const [query , setquery] = useState('');
      const [count , setcount] = useState(0);
-  
+
+
 const fetchData = async () => {
 
       try {
         const response = await axios.get(
-          `https://www.googleapis.com/youtube/v3/search?key=AIzaSyBdOHgNZoPUfL3Tgxy4p9S18Cl7RvzNA_U&type=video&part=snippet&q=${query}`
+          `https://www.googleapis.com/youtube/v3/search?key=${process.env.REACT_APP_API_KEY}&q=${query}`
         );
         setVideos(response.data.items);
       } catch (error) {
         console.error('Error fetching video data:', error);
       }
-   
+
     }
 
-  useEffect(() => {  
-    
+  useEffect(() => {
    const debounceData =()=>{
         debounce(fetchData,1000)
    }
    return ()=>{
       debounceData();
    }
-   
   }, [query]);
-    
+
   return (
   <>
        <div id="header">
